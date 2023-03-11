@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    ;
+}
+
+.container1 {
+    max-width: auto;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.whatevernameuwant {
+    background-image: repeating-linear-gradient( to bottom right, violet, indigo, blue, green, yellow, orange, red, violet, indigo, blue, green, yellow, orange, red );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow 4s linear infinite alternate;
+}
+
+.container {
+    max-width: auto;
+    max-height: 0cap;
+    padding: 0px 2px;
+    margin: 0 0;
+}
+
+.container2 {
+    max-width: 270px;
+    margin: 80 auto;
+}
+
+.userInfo {
+    background-color: rgb(173, 173, 173);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 222px 52px;
+    flex-grow: 2;
+    width: auto;
+}
+
+.pic1 {
+
+    display: flex;
+    justify-content: center;
+    zoom: 11%;
+    width: fit-content;
+    padding: 0px 8052px;
+}
+
+.pic2 {
+
+    display: flex;
+    justify-content: center;
+    zoom: 11%;
+    width: fit-content;
+    padding: 0px 8052px;
+}
+
+.catDetails {
+    justify-content: center;
+}
+
+.pic3 {
+
+    display: flex;
+    justify-content: left;
+    zoom: 11%;
+    width: fit-content;
+
+}
+
+.pic4 {
+
+    display: flex;
+    justify-content: left;
+    zoom: 11%;
+    width: fit-content;
+}
+
+.userImg {
+    height: 259%;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    color: #fff;
+}
+
+.userPic {
+    height: 260%;
+    max-width: auto;
+    justify-content: center;
+}
+
+.userDetails {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 52px 72px;
+    flex-grow: 2;
+}
+
+.Music {
+    background-color: lightslategrey;
+}
+
+.Home {
+    background-color: dimgray;
+}
+
+.Contact {
+    background-color: black;
+}
+
+.Music,
+.Home,
+.Contact {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.Home ion-icon,
+.Music ion-icon,
+.Contact ion-icon {
+    font-size: 100px;
+}
